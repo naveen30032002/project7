@@ -5,7 +5,7 @@
     }
 
     .attribution a {
-      color: hsl(228, 45%, 44%);
+      color: hsl(228, 45%, 47%);
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
@@ -17,21 +17,20 @@ body {
     display: flex;
     align-items: center;
     font-size: 15px;
-    font-family: 'Lexend Deca',
-        sans-serif;
+    font-family: 'Lexend Deca',sans-serif;
     font-weight: 400;
 }
 
 .container {
     max-width: 960px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-radius: 12px;
-    margin: 2rem;
+    margin: 2px;
     overflow: hidden;
 }
 
@@ -60,11 +59,10 @@ body {
 
 .box p {
     color: hsla(0, 0%, 100%, 0.75);
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .box a {
-    text-decoration: none;
     background-color: hsl(0, 0%, 95%);
     padding: 13px 27px;
     border-radius: 26px;
@@ -86,20 +84,10 @@ body {
     color: hsl(179, 100%, 13%);
 }
 
-.box a:hover {
-    color: hsl(0, 0%, 95%);
-    background: transparent;
-}
 
 @media only screen and (max-width: 768px) {
     .wrapper {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .wrapper {
-        margin: 2rem .5rem;
+        grid-template-columns:1fr ;
     }
 }
   </style>
